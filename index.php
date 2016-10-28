@@ -8,9 +8,10 @@
 
     <script src="js/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap/3.3.7/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/lang.js"></script>
     <script src="js/home.js"></script>
     <script src="js/chords.js"></script>
-    <script src="js/all.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
