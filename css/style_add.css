@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'chords';
-    src:    url('fonts/chords.eot');
-    src:    url('fonts/chords.eot') format('embedded-opentype'),
-    url('fonts/chords.woff2') format('woff2'),
-    url('fonts/chords.ttf') format('truetype'),
-    url('fonts/chords.woff') format('woff'),
-    url('fonts/chords.svg') format('svg');
+    src:    url('fonts/chords.eot?v5kcvr');
+    src:    url('fonts/chords.eot?v5kcvr#iefix') format('embedded-opentype'),
+        url('fonts/chords.woff2?v5kcvr') format('woff2'),
+        url('fonts/chords.ttf?v5kcvr') format('truetype'),
+        url('fonts/chords.woff?v5kcvr') format('woff'),
+        url('fonts/chords.svg?v5kcvr#chords') format('svg');
     font-weight: normal;
     font-style: normal;
 }
