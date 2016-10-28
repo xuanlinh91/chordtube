@@ -11,12 +11,21 @@
     <script src="js/home.js"></script>
     <script src="js/chords.js"></script>
     <script src="js/all.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 <form>
     <div class="form-group">
-        <label for="email">Search Chord</label>
-        <input type="text" class="form-control" id="">
+        <div class="row" style="
+    margin-top: 100px;
+">
+            <div class="col-lg-3 col-sm-3 col-lg-offset-4 col-sm-offset-4">
+                <input type="text" class="form-control col-lg-2 col-sm-2" id="search_btn"/>
+            </div>
+            <div class="col-lg-1 col-sm-1">
+                <input type="button" class="btn btn-default" value="Search" id="search_btn_test"/>
+            </div>
+        </div>
     </div>
 </form>
 </body>

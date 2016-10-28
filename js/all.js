@@ -725,20 +725,20 @@ $(document).ready(function() {
 		}, 10);*/
 	}
 
-	(function(){
-		// enable add to chrome button
-		if( window.chrome === undefined || chrome.app === undefined ){
-			return;
-		}
-		if( !chrome.app.isInstalled ){
-			$('.social .icon-addstore').data('tooltip', Lang.add_to + ' Chrome').show().click(function(e){
-				e.preventDefault();
-				chrome.webstore.install('', function(){
-					$('.social .icon-addstore').hide();		
-				});
-			});
-		}
-	})();
+	// (function(){
+	// 	// enable add to chrome button
+	// 	if( window.chrome === undefined || chrome.app === undefined ){
+	// 		return;
+	// 	}
+	// 	if( !chrome.app.isInstalled ){
+	// 		$('.social .icon-addstore').data('tooltip', Lang.add_to + ' Chrome').show().click(function(e){
+	// 			e.preventDefault();
+	// 			chrome.webstore.install('', function(){
+	// 				$('.social .icon-addstore').hide();
+	// 			});
+	// 		});
+	// 	}
+	// })();
 
 	(function(){
 		// enabled add to firefox button
